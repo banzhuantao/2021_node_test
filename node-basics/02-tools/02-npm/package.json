@@ -1,0 +1,16 @@
+{
+  "name": "02-npm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "gulp -v"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "underscore": "^1.13.1"
+  }
+}
