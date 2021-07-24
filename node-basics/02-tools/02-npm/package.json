@@ -4,13 +4,19 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "gulp -v"
+    "dev": "gulp -v",
+    "runjs": "node ./03-scripts/scripts1.js && node ./03-scripts/scripts2.js",
+    "start": "node ./03-scripts/script.js"
   },
   "devDependencies": {
     "gulp": "^4.0.2"
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "jquery": "^3.6.0",
     "underscore": "^1.13.1"
+  },
+  "config": {
+    "env": "production"
   }
 }
