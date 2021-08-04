@@ -7,3 +7,6 @@
 - ~ : 锁定 minor;
 - 空 : 锁定 patch;
 - \* : 锁定 最新版本;
+
+# node浏览器调试
+- node --inspect --inspect-brk server.js
